@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "img": "../images/product_7.png",
+        "name": "Logitech G502 Gaming Mouse",
+        "price":  19.00,
+        "old_price": 238.00,
+        "color":["8B8B8B"],
+        "evaluate":4.5,
+        "discount" :50
+      },
+      {
+        "id": 1,
+        "img": "../images/product_8.png",
+        "name": "NPET K10 Wired Gaming Keyboard, LED Backlit, Spill-Resistant Design",
+        "price": 119.00,
+        "old_price":138.00,
+        "color":["8B8B8B"],
+        "evaluate":3.5,
+        "discount" :50
+      }, 
+      {
+        "id": 2,
+        "img": "../images/product_9.png",
+        "name": "Apple Watch Series 7 (GPS, 41MM)",
+        "price":79.00,
+        "old_price":88.00,
+        "color":["8B8B8B"],
+        "evaluate":2.5,
+        "discount" :50
+      }, 
+      {
+        "id": 3,
+        "img": "../images/product_10.png",
+        "name": "Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GBSSD)",
+        "price":29.00,
+        "old_price":38.00,
+        "color":["8B8B8B"],
+        "evaluate":5,
+        "discount" :50
+      },  
+      {
+        "id": 4,
+        "img": "../images/product_11.png",
+        "name": "samsung Titan smart watch",
+        "price":90.00,
+        "old_price":98.00,
+        "color":["8B8B8B"],
+        "evaluate":5,
+        "discount" :50
+      },
+      {
+        "id": 5,
+        "img": "../images/product_13.png",
+        "name": "MacBook Pro M2 MNEJ3 2022 LLA 13.3 inch",
+        "price":  2490.87,
+        "old_price": 2500.00,
+        "color":["101010","FFFFFF","8B8B8B"],
+        "evaluate":4.5,
+        "discount" :0
+
+      },
+      {
+        "id": 6,
+        "img": "../images/product_12.png",
+        "name": "Iphone 14 promax 256 gig",
+        "price": 2490.87,
+        "old_price":0,
+        "color":["51504C","FFFFFF","96B9D7"],
+        "evaluate":4.8,
+        "discount" :0
+
+      },
+      {
+        "id": 7,
+        "img": "../images/product_14.png",
+        "name": "ISAMSUNG Galaxy S23 Ultra Cell Phone,256 GB",
+        "price": 1018.00,
+        "old_price":0,
+        "color":["EADEE9","BCD7FF","8B8B8B"],
+        "evaluate":4.5,
+        "discount" :0
+      },
+      {
+        "id": 8,
+        "img": "../images/product_15.png",
+        "name": "VR VisionTech X1",
+        "price": 1399.00,
+        "old_price":0,
+        "color":["8B8B8B"],
+        "evaluate":3.9,
+        "discount" :0
+
+      },
+      {
+       "id": 9,
+       "img": "../images/product_20.png",
+       "name": "EchoX Pro H900",
+       "price": 32.30,
+       "old_price":0,
+       "color":["222222"],
+       "evaluate":4.1,
+       "discount" :0
+
+     },
+     {
+      "id": 10,
+      "img": "../images/product_21.png",
+      "name": "Play Station 4 Pro 1Tb",
+      "price": 980.00,
+      "old_price":1090.00,
+      8
+      "evaluate":4.4,
+      "discount" :12
+
+    },{
+      "id": 11,
+      "img": "../images/product_22.png",
+      "name": "Apple MacBook Air 15 w/ Touch ID (2023) - Space Grey (Apple M2 Chip / 256GB SSD / 8GB RAM) - French",
+      "price": 1883.05,
+      "old_price":0,
+      "color":["FFFFFF","8B8B8B"],
+      "evaluate":4.5,
+      "discount" :0
+
+    },{
+      "id": 12,
+      "img": "../images/product_23.png",
+      "name": "Airpods pro2",
+      "price": 274.04,
+      "old_price": 285.08,
+      "color":["FFFFFF"],
+      "evaluate":4.5,
+      "discount" :10
+
+    }
+]

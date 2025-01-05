@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/Tech_Heim.css">
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=network_node" />
+    <!-- package swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-white sticky-top ">
+
+        <div class="container head-web d-flex align-items-center justify-content-between">
+            <!--*********************************** Start navebar Mobile Button *********************************** -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="" href="#">
+                        <img src="../images/logo.png" alt="" class="img-fluid">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Products
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+                                        <ul class="accordion-body">
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i
+                                                        class="fa-solid fa-mobile-screen"></i> Mobile Phones</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-desktop"></i>
+                                                    Laptops & Computers </a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-tablet"></i>
+                                                    Tablets & E-reader</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-regular fa-clock"></i>
+                                                    Wearables</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-headphones"></i>
+                                                    Audio</a>
+                                            </li>
+                                            <li class="pb-4">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-camera"></i>
+                                                    Cameras</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-gamepad"></i>
+                                                    Gaming</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i
+                                                        class="fa-solid fa-diagram-project"></i> Networking</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-brands fa-medapps"></i>
+                                                    Accessories</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <!--*********************************** End navebar Mobile Button *********************************** -->
+            <a class="login position-relative " id="Products-header" href="#">
+                <img src="../images/logo.png" alt="" class="img-fluid">
+            </a>
+            <a class="name-website fw-medium" href="#">Tech Heim</a>
+            <!--***********************************   Start List catogary Header And Icons *********************************** -->
+            <div class="d-flex align-items-center flex-lg-grow-1  justify-content-end " id="main">
+                <ul class="d-flex align-items-center justify-content-center mx-auto mb-2 mb-lg-0 list-menu">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 py-lg-3 px-lg-4 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#" class="Product"
+                            >Products</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <!-- Icons -->
+                <div class="icon d-flex align-items-center mr-1">
+                    <a class="search ps-5 py-2" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                        <i class="fa-solid fa-magnifying-glass P-0 m-0 text-black "></i>
+                    </a>
+                    <!-- Start Icon Shopping -->
+                    <div class="dropdown ps-0 ps-lg-5 py-2">
+                        <i class="fa-solid fa-basket-shopping  dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu shoping pt-3 ps-3 pe-3" aria-labelledby="dropdownMenuLink">
+                            <div class="box-shoping w-30 px-3 py-2 w-40">
+                                <p class="text-primary">3 items</p>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product_13.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">MacBook Pro M2 MNEJ3 2022 LLA 13.3 inch</h5>
+                                        <p class="colors text-black-50 fs-6 m-0">Blue</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>63.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">1</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product-29.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">Inateck 12.3-13 Inch MacBook Case Sleeve </h5>
+                                        <p class="colors text-black-50 fs-6 m-0">black</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>163.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">2</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product-30.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">Laptop Privacy Screen for 13 inch
+                                            MacBook Pro & MacBook Air </h5>
+                                        <p class="colors text-black-50 fs-6 m-0">black</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>23.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">2</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payments d-flex px-2">
+                                    <div class="coutn-price pe-3">
+                                        <p class="m-0 f-5">Grand total</p>
+                                        <b class="m-0">$543.02</b>
+                                    </div>
+                                    <button type="button" class="btn btn-primary flex-grow-1">Proceed to Cart</button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- End Icon Shopping -->
+                    <!-- Start icons  Acount -->
+                    <div class="dropdown ps-2 ps-lg-5 py-2">
+                        <i class="fa-regular fa-user  btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu pt-3 ps-3 pe-3" aria-labelledby="dropdownMenuLink">
+                            <li class="pb-2  d-flex align-items-baseline">
+                                <a href="#" class="fs-5"><i class="fa-regular fa-circle-user pe-2 text-body"></i></a>
+                                <div class="lh-1">
+                                    <p class="fs-5  text-primary p-0">Jimmy Smith</p>
+                                    <p class="fs-6  text-black-50 ">Jimmy.smith1996@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="fs-5"><i class="fa-regular fa-bag-shopping pe-2 text-body"></i>
+                                    <span class="text-black-50">Orders</span></a>
+                            </li>
+                            <li class="pb-4  ">
+                                <a href="#" class="fs-5"><i class="fa-regular fa-heart pe-2 text-body"></i>
+                                    <span class="text-black-50">Wish List</span></a>
+                            </li>
+                            <li class="pb-4  ">
+                                <a href="#" class="fs-5"><i class="fa-solid fa-sack-dollar pe-2 text-body"></i>
+                                    <span class="text-black-50">Payments</span></a>
+                            </li>
+                            <li class="pb-4  ">
+                                <a href="#" class="fs-5"><i
+                                        class="fa-solid fa-arrow-right-from-bracket pe-2 text-body"></i>
+                                    <span class="text-black-50">Log out</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- End icons  Acount -->
+                </div>
+            </div>
+            <!--***********************************   End List catogary Header And Icons *********************************** -->
+            <!-- Start mag-product -->
+            <div class="mag-product" id="popupMenu">
+                <div class="row">
+                    <div class="col-3 border-start-0 border-top-0 border-bottom-0 border  border-secondary">
+                        <ul class="accordion-body">
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"><i class="fa-solid fa-mobile-screen pe-2"></i>
+                                    Mobile Phones</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-desktop pe-2"></i>
+                                    Laptops & Computers </a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-tablet pe-2"></i>
+                                    Tablets & E-reader</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-regular fa-clock pe-2"></i>
+                                    Wearables</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-headphones pe-2"></i>
+                                    Audio</a>
+                            </li>
+                            <li class="pb-4">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-camera pe-2"></i>
+                                    Cameras</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-gamepad pe-2"></i>
+                                    Gaming</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-diagram-project pe-2"></i>
+                                    Networking</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-brands fa-medapps pe-2"></i>
+                                    Accessories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-9 pt-2 product">
+                        <ul class="accordion-body">
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-mobile-screen pe-2"></i>
+                                    Mobile Phones</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"><i
+                                        class="fa-brands fa-medapps text-black-50  pe-2"></i>
+                                    Accessories</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"> view all</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-end pe-4 gap-2 boxs">
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-25.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Watch & Earpods</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-26.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Holder</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-27.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Power cables</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-28.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Cases & Protection </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End mag-product -->
+        </div>
+
+    </nav>
+    <!--=======================================  Start Section  Search =======================================-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content box">
+                <div class="modal-header border-0 d-flex justify-content-space-bettewn align-items-center ">
+                    <div
+                        class="input-group  border rounded d-flex justify-content-space-bettewn align-items-center pe-2">
+                        <input type="text" placeholder="What can we help you to find ?" class="form-control border-0"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"> <i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <button type="button" class="btn-close border rounded-circle border-dark m-0"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <!-- Start List product -->
+                    <!-- <div class="product-boxs-list d-flex align-items-start gap-4">
+                        <div class="product-box ">
+                            <h5 class="pt-4">The Most Searched Items</h5>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">MacBook Pro </li>
+                                    <li class="pb-3 fs-6"> AirPods Pro </li>
+                                    <li class="pb-3 fs-6"> Samsung S9 </li>
+                                    <li class="pb-3 fs-6">Tablet </li>
+                                    <li class="pb-3 fs-6"> Xiaomi </li>
+                                </ul>
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6"> JBL speaker </li>
+                                    <li class="pb-3 fs-6"> Canon </li>
+                                    <li class="pb-3 fs-6"> AirPods Max </li>
+                                    <li class="pb-3 fs-6">Asus </li>
+                                    <li class="pb-3 fs-6"> MagSafe </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <h5 class="pt-4">Most used keywords</h5>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">Tablets </li>
+                                    <li class="pb-3 fs-6">Headphones </li>
+                                    <li class="pb-3 fs-6">Smartphones </li>
+                                    <li class="pb-3 fs-6">Smartwatch </li>
+                                </ul>
+
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">Laptops </li>
+                                    <li class="pb-3 fs-6">USB Drive </li>
+                                    <li class="pb-3 fs-6">Phone Cases </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- End List product -->
+                    <!-- Start Product After Search -->
+                    <div class="product_box_after_search d-flex align-items-start gap-4">
+                        <div class="product-box me-4 ">
+                            <p class="fs-6 p-0 m-0">view 17 out of 30 results</p>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0 ">
+                                    <li class="pb-3 fs-6">X Case </li>
+                                    <li class="pb-3 fs-6">11 Case </li>
+                                    <li class="pb-3 fs-6">11 Pro Case </li>
+                                    <li class="pb-3 fs-6">11 Promax Case </li>
+                                    <li class="pb-3 fs-6">12 mini Case </li>
+                                    <li class="pb-3 fs-6">12 Pro Case </li>
+                                    <li class="pb-3 fs-6">12 Promax Case</li>
+                                    <li class="pb-3 fs-6">13 mini Case </li>
+                                </ul>
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">13 Case </li>
+                                    <li class="pb-3 fs-6">13 Pro Case</li>
+                                    <li class="pb-3 fs-6">13 Promax Case </li>
+                                    <li class="pb-3 fs-6">SE Case </li>
+                                    <li class="pb-3 fs-6">14 Case </li>
+                                    <li class="pb-3 fs-6">14 Plus Case </li>
+                                    <li class="pb-3 fs-6">14 Pro Case </li>
+                                    <li class="pb-3 fs-6">14 Promax Case </li>
+                                    <li class="pb-3 fs-6">Tap for more </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="product-boxs d-flex align-items-start flex-wrap">
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-34.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-33.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-32.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-37.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-36.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-35.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Product After Search-->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--======================================= End Section Search =======================================-->
+    <!--======================================= End Section Products =======================================-->
+    <div class="page-products">
+        <div class="container pt-4 pb-4">
+            <div class="title-page-products mb-2">
+                <p class="fw-light">Home > <span class="text-decoration-underline">Products</span></p>
+            </div>
+            <div class="swiperProduct nameProduct overflow-hidden">
+                <div class="swiper-wrapper gap-2 gap-lg-5" id="swiper_product">
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct19.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Mobile</p>
+                    </div>
+                    <div class="swiper-slide box active text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct8.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Laptop</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct7.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Tablet</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct6.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Audio</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct5.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Wearable</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct4.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Camera</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct3.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Gaming</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct2.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base ">Network</p>
+                    </div>
+                    <div class="swiper-slide box text-center d-flex flex-column align-items-center">
+                        <img src="../images/iconProduct1.png" alt="" class="img-fluid mb-1">
+                        <p class="fw-light m-0 fs-6 lh-base">Accessories</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Start Footers -->
+    <!-- <footer class="text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-sm-6 col-md-6 col-lg-2 mb-3">
+                    <h5 class="fw-medium">Company</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-2"><a href="#" class="text-white fw-light">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Returns</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Order Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-2 mb-3">
+                    <h5 class="fw-medium">Info</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-2"><a href="#" class="text-white fw-light">How it works?</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Our Promises</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-5 mb-3">
+                    <h5 class="fw-medium">Contact Us</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="text-white fw-light mb-2"><i class="fas fa-map-marker-alt"></i> 123 Main Street,
+                            Anytown, USA</li>
+                        <li class="text-white fw-light mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li class="text-white fw-light mb-2"><i class="fas fa-envelope"></i> TechHeimSupport@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
+                    <h5>Sign up for News and Updates</h5>
+                    <form>
+                        <div class="input-group">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="email" class="form-control" placeholder="E-mail Address" aria-label="Email">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </form>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="payment-icons">
+                    <img src="../images/login_brand1.png" alt="PayPal" class="me-2">
+                    <img src="../images/login_brand2.png" alt="American Express" class="me-2">
+                    <img src="../images/login_brand3.png" alt="Visa" class="me-2">
+                    <img src="../images/login_brand4.png" alt="MasterCard">
+                </div>
+            </div>
+            <hr class="bg-light">
+
+            <div class="row align-items-center">
+
+
+                <div class="d-flex justify-content-between flex-wrap gap-3">
+                    <p class="m-0">&copy; 2023 Tech Heim.</p>
+                    <div class="d-flex align-items-center flex-wrap gap-2">
+                        <a href="#" class="text-white me-3">Cookie Settings</a>
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white me-3">Terms and Conditions</a>
+                        <a href="#" class="text-white">Imprint </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- End Footers -->
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/tech_heim.js"></script>
+    <script src="../js/swiperTech.js"></script>
+    <script src="../js/loginAndSinging.js"></script>
+    <script src="../js/itemsProducts.js"></script>
+
+
+
+</body>
+
+</html>

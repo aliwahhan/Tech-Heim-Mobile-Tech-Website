@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/Tech_Heim.css">
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=network_node" />
+    <!-- package swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-white sticky-top ">
+
+        <div class="container head-web d-flex align-items-center justify-content-between">
+            <!--*********************************** Start navebar Mobile Button *********************************** -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="" href="#">
+                        <img src="../images/logo.png" alt="" class="img-fluid">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Products
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+                                        <ul class="accordion-body">
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i
+                                                        class="fa-solid fa-mobile-screen"></i> Mobile Phones</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-desktop"></i>
+                                                    Laptops & Computers </a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-tablet"></i>
+                                                    Tablets & E-reader</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-regular fa-clock"></i>
+                                                    Wearables</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-headphones"></i>
+                                                    Audio</a>
+                                            </li>
+                                            <li class="pb-4">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-camera"></i>
+                                                    Cameras</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-solid fa-gamepad"></i>
+                                                    Gaming</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i
+                                                        class="fa-solid fa-diagram-project"></i> Networking</a>
+                                            </li>
+                                            <li class="pb-4 ">
+                                                <a href="#" class="text-black-50"><i class="fa-brands fa-medapps"></i>
+                                                    Accessories</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <!--*********************************** End navebar Mobile Button *********************************** -->
+            <a class="login position-relative " id="Products-header" href="#">
+                <img src="../images/logo.png" alt="" class="img-fluid">
+            </a>
+            <a class="name-website fw-medium" href="#">Tech Heim</a>
+            <!--***********************************   Start List catogary Header And Icons *********************************** -->
+            <div class="d-flex align-items-center flex-lg-grow-1  justify-content-end " id="main">
+                <ul class="d-flex align-items-center justify-content-center mx-auto mb-2 mb-lg-0 list-menu">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 py-lg-3 px-lg-4 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="../products.html" class="Product">Products</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 px-lg-4" href="#">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <!-- Icons -->
+                <div class="icon d-flex align-items-center mr-1">
+                    <a class="search ps-5 py-2" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                        <i class="fa-solid fa-magnifying-glass P-0 m-0 text-black "></i>
+                    </a>
+                    <!-- Start Icon Shopping -->
+                    <div class="dropdown ps-0 ps-lg-5 py-2">
+                        <i class="fa-solid fa-basket-shopping  dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu shoping pt-3 ps-3 pe-3" aria-labelledby="dropdownMenuLink">
+                            <div class="box-shoping w-30 px-3 py-2 w-40">
+                                <p class="text-primary">3 items</p>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product_13.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">MacBook Pro M2 MNEJ3 2022 LLA 13.3 inch</h5>
+                                        <p class="colors text-black-50 fs-6 m-0">Blue</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>63.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">1</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product-29.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">Inateck 12.3-13 Inch MacBook Case Sleeve </h5>
+                                        <p class="colors text-black-50 fs-6 m-0">black</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>163.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">2</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box d-flex align-items-center rounded py-3 px-4 mb-3">
+                                    <div class="image pe-3">
+                                        <img src="../images/product-30.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="info-prod">
+                                        <h5 class="title fs-5 m-0">Laptop Privacy Screen for 13 inch
+                                            MacBook Pro & MacBook Air </h5>
+                                        <p class="colors text-black-50 fs-6 m-0">black</p>
+                                        <p class="count fs-6">1</p>
+                                        <div class="deliver d-flex align-items-center pb-2">
+                                            <i class="fa-solid fa-truck text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Free Delivery</p>
+                                        </div>
+                                        <div class="warrantey d-flex align-items-center pb-2">
+                                            <i class="fa-regular fa-circle-check text-primary me-2 m-0"></i>
+                                            <p class="p-0 m-0">Guaranteed</p>
+                                        </div>
+                                        <div class="product d-flex justify-content-lg-between align-items-center">
+                                            <p class="price m-0"><span>$</span>23.26</p>
+                                            <div class="process-items  d-flex align-items-center">
+                                                <i class="fa-regular fa-trash-can me-4 "></i>
+                                                <div
+                                                    class="edite-items d-flex align-items-center border-bottom border-2 border-secondary  ">
+                                                    <i class="fa-solid fa-minus me-4 m-0"></i>
+                                                    <p class="numer-items p-0 m-0 fs-4">2</p>
+                                                    <i class="fa-solid fa-plus ms-4 m-0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payments d-flex px-2">
+                                    <div class="coutn-price pe-3">
+                                        <p class="m-0 f-5">Grand total</p>
+                                        <b class="m-0">$543.02</b>
+                                    </div>
+                                    <button type="button" class="btn btn-primary flex-grow-1">Proceed to Cart</button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- End Icon Shopping -->
+
+                    <!-- Start icons loginAndSinging && Acount -->
+                    <!-- == Login / Sign Up Button ==-->
+                    <div id="loginSignUpButton" class="text-right m-3">
+                        <button class="btn btn-primary" onclick="showModal()">Login / Sign Up</button>
+                    </div>
+                    <!-- icon Acount -->
+                    <div id="accountIcon" class="text-right m-3 d-none">
+                        <div class="dropdown ps-2 ps-lg-5 py-2">
+                            <i class="fa-regular fa-user  btn dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu pt-3 ps-3 pe-3" aria-labelledby="dropdownMenuLink">
+                                <li class="pb-2  d-flex align-items-baseline">
+                                    <a href="#" class="fs-5"><i
+                                            class="fa-regular fa-circle-user pe-2 text-body"></i></a>
+                                    <div class="lh-1">
+                                        <p class="fs-5  text-primary p-0">Jimmy Smith</p>
+                                        <p class="fs-6  text-black-50 ">Jimmy.smith1996@gmail.com</p>
+                                    </div>
+                                </li>
+                                <li class="pb-4 ">
+                                    <a href="#" class="fs-5"><i class="fa-regular fa-bag-shopping pe-2 text-body"></i>
+                                        <span class="text-black-50">Orders</span></a>
+                                </li>
+                                <li class="pb-4  ">
+                                    <a href="#" class="fs-5"><i class="fa-regular fa-heart pe-2 text-body"></i>
+                                        <span class="text-black-50">Wish List</span></a>
+                                </li>
+                                <li class="pb-4  ">
+                                    <a href="#" class="fs-5"><i class="fa-solid fa-sack-dollar pe-2 text-body"></i>
+                                        <span class="text-black-50">Payments</span></a>
+                                </li>
+                                <li class="pb-4  ">
+                                    <a href="#" class="fs-5"><i
+                                            class="fa-solid fa-arrow-right-from-bracket pe-2 text-body"></i>
+                                        <span class="text-black-50">Log out</span></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- == End login and singing ===-->
+
+                </div>
+
+            </div>
+            <!--***********************************   End List catogary Header And Icons *********************************** -->
+            <!-- Start mag-product -->
+            <div class="mag-product" id="popupMenu">
+                <div class="row">
+                    <div class="col-3 border-start-0 border-top-0 border-bottom-0 border  border-secondary">
+                        <ul class="accordion-body">
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"><i class="fa-solid fa-mobile-screen pe-2"></i>
+                                    Mobile Phones</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-desktop pe-2"></i>
+                                    Laptops & Computers </a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-tablet pe-2"></i>
+                                    Tablets & E-reader</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-regular fa-clock pe-2"></i>
+                                    Wearables</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-headphones pe-2"></i>
+                                    Audio</a>
+                            </li>
+                            <li class="pb-4">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-camera pe-2"></i>
+                                    Cameras</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-gamepad pe-2"></i>
+                                    Gaming</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-diagram-project pe-2"></i>
+                                    Networking</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-brands fa-medapps pe-2"></i>
+                                    Accessories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-9 pt-2 product">
+                        <ul class="accordion-body">
+                            <li class="pb-4 ">
+                                <a href="#" class="text-black-50 fs-5"><i class="fa-solid fa-mobile-screen pe-2"></i>
+                                    Mobile Phones</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"><i
+                                        class="fa-brands fa-medapps text-black-50  pe-2"></i>
+                                    Accessories</a>
+                            </li>
+                            <li class="pb-4 ">
+                                <a href="#" class="text-primary fs-5"> view all</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-end pe-4 gap-2 boxs">
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-25.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Watch & Earpods</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-26.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Holder</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-27.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Power cables</p>
+                            </div>
+                            <div class="bg-card rad-8 text-center p-2">
+                                <div class="image pb-2">
+                                    <img src="../images/product-28.png" alt="" srcset="">
+                                </div>
+                                <p class="fs-6">Cases & Protection </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End mag-product -->
+        </div>
+
+    </nav>
+    <!--=======================================  Start Section  Search =======================================-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content box">
+                <div class="modal-header border-0 d-flex justify-content-space-bettewn align-items-center ">
+                    <div
+                        class="input-group  border rounded d-flex justify-content-space-bettewn align-items-center pe-2">
+                        <input type="text" placeholder="What can we help you to find ?" class="form-control border-0"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"> <i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <button type="button" class="btn-close border rounded-circle border-dark m-0"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <!-- Start List product -->
+                    <!-- <div class="product-boxs-list d-flex align-items-start gap-4">
+                        <div class="product-box ">
+                            <h5 class="pt-4">The Most Searched Items</h5>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">MacBook Pro </li>
+                                    <li class="pb-3 fs-6"> AirPods Pro </li>
+                                    <li class="pb-3 fs-6"> Samsung S9 </li>
+                                    <li class="pb-3 fs-6">Tablet </li>
+                                    <li class="pb-3 fs-6"> Xiaomi </li>
+                                </ul>
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6"> JBL speaker </li>
+                                    <li class="pb-3 fs-6"> Canon </li>
+                                    <li class="pb-3 fs-6"> AirPods Max </li>
+                                    <li class="pb-3 fs-6">Asus </li>
+                                    <li class="pb-3 fs-6"> MagSafe </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <h5 class="pt-4">Most used keywords</h5>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">Tablets </li>
+                                    <li class="pb-3 fs-6">Headphones </li>
+                                    <li class="pb-3 fs-6">Smartphones </li>
+                                    <li class="pb-3 fs-6">Smartwatch </li>
+                                </ul>
+
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">Laptops </li>
+                                    <li class="pb-3 fs-6">USB Drive </li>
+                                    <li class="pb-3 fs-6">Phone Cases </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- End List product -->
+                    <!-- Start Product After Search -->
+                    <div class="product_box_after_search d-flex align-items-start gap-4">
+                        <div class="product-box me-4 ">
+                            <p class="fs-6 p-0 m-0">view 17 out of 30 results</p>
+                            <div class="d-flex gap-3 p-0 m-0 pt-4">
+                                <ul class="m-0 p-0 ">
+                                    <li class="pb-3 fs-6">X Case </li>
+                                    <li class="pb-3 fs-6">11 Case </li>
+                                    <li class="pb-3 fs-6">11 Pro Case </li>
+                                    <li class="pb-3 fs-6">11 Promax Case </li>
+                                    <li class="pb-3 fs-6">12 mini Case </li>
+                                    <li class="pb-3 fs-6">12 Pro Case </li>
+                                    <li class="pb-3 fs-6">12 Promax Case</li>
+                                    <li class="pb-3 fs-6">13 mini Case </li>
+                                </ul>
+                                <ul class="m-0 p-0">
+                                    <li class="pb-3 fs-6">13 Case </li>
+                                    <li class="pb-3 fs-6">13 Pro Case</li>
+                                    <li class="pb-3 fs-6">13 Promax Case </li>
+                                    <li class="pb-3 fs-6">SE Case </li>
+                                    <li class="pb-3 fs-6">14 Case </li>
+                                    <li class="pb-3 fs-6">14 Plus Case </li>
+                                    <li class="pb-3 fs-6">14 Pro Case </li>
+                                    <li class="pb-3 fs-6">14 Promax Case </li>
+                                    <li class="pb-3 fs-6">Tap for more </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="product-boxs d-flex align-items-start flex-wrap">
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-34.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-33.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-32.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-37.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-36.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                            <div class="product rounded p-1">
+                                <div class="image">
+                                    <img src="../images/product-35.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Cases & Protection</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Product After Search-->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--======================================= End Section Search =======================================-->
+    <!--======================================= Start page Singing and login =======================================-->
+
+    <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="nav nav-tabs card-header-tabs w-100" id="authTabs">
+                        <li class="nav-item w-50 border-0">
+                            <a class="nav-link position-relative active" id="loginTab" href="#"
+                                onclick="showLogin()">Log In</a>
+                        </li>
+                        <li class="nav-item w-50 border-0">
+                            <a class="nav-link position-relative" id="createAccountTab" href="#"
+                                onclick="showCreateAccount()">Create Account</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <div id="loginForm">
+                        <h5 class="fs-4 fw-medium text-center pb-2">Log in to Tech Heim</h5>
+                        <form class="mt-2">
+                            <input type="email" class="form-control my-2" placeholder="E-mail">
+                            <input type="password" class="form-control my-2" placeholder="Password">
+                            <div class="text text-primary text-end">Forgot Password ?</div>
+                            <div class="form-check mb-2 pt-2">
+                                <input type="checkbox" class="form-check-input" id="keepLoggedIn">
+                                <label class="form-check-label" for="keepLoggedIn">Keep me logged
+                                    in</label>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-block w-100 py-2 rounded mt-1"
+                                onclick="authenticate()">Log In</button>
+                            <div class="text-center mt-3">
+                                <p class="fw-light fs-6">Or Log In with</p>
+                                <button type="button" class="btn btn-outline-primary align-items-center btn-brand"><i
+                                        class="fa-brands fa-google"></i> Google</button>
+                                <button type="button" class="btn btn-outline-primary align-items-center  btn-brand"><i
+                                        class="fa-brands fa-facebook "></i> Facebook</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Create Account Form -->
+                    <div id="createAccountForm" style="display: none;">
+                        <h5 class="fs-4 fw-medium text-center pb-2">Create your account</h5>
+                        <form class="mt-2">
+                            <input type="text" class="form-control my-2" placeholder="Full Name">
+                            <input type="email" class="form-control my-2" placeholder="E-mail">
+                            <input type="password" class="form-control my-2" placeholder="Password">
+                            <div class="form-check mb-2 pt-2">
+                                <input type="checkbox" class="form-check-input" id="termsConditions">
+                                <label class="form-check-label" for="termsConditions">I agree to all <a href="#">Terms &
+                                        Conditions</a></label>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-block w-100 py-2 rounded mt-1"
+                                onclick="authenticate()">Create
+                                Account</button>
+                            <div class="text-center mt-3">
+
+                                <p class="fw-light fs-6">Or Sign Up with</p>
+                                <button type="button" class="btn btn-outline-primary align-items-center btn-brand"><i
+                                        class="fa-brands fa-google"></i> Google</button>
+                                <button type="button" class="btn btn-outline-primary align-items-center  btn-brand"><i
+                                        class="fa-brands fa-facebook "></i> Facebook</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================================= End page Singing and login =======================================-->
+    <!-- Start Hero -->
+    <div class="hero pb-2 pt-5 ">
+        <div class="container">
+            <!-- Start information website -->
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-4 col-sm-4 text-center text-md-start pb-4">
+                    <h2 class="fs-1 fw-bold pb-lg-4 title">Tech Heim</h2>
+                    <p class="fs-3  pb-lg-5 pb-3">"Join the <span>digital revolution</span>"</p>
+                    <a href="#" class="btn round py-lg-2 px-lg-5 main-btn">Explore More</a>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <div class="image">
+                        <img src="../images/imageHero.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!-- End information website -->
+            <!-- Start rivews product -->
+            <div class="row product justify-content-start justify-content-md-center pt-4 pb-4">
+
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_1.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Accessories</p>
+                </div>
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_2.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Camera</p>
+                </div>
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_3.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Laptop</p>
+                </div>
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_4.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Smart Phone</p>
+                </div>
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_5.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Gaming</p>
+                </div>
+                <div class="col-3 col-sm-4 col-md-3 col-lg-2 text-center product-item">
+                    <div class="image">
+                        <img src="../images/product_6.png" alt="" class="img-fluid">
+                    </div>
+                    <p>Smart Watch</p>
+                </div>
+            </div>
+            <!-- End rivews product -->
+        </div>
+    </div>
+    <!-- End Hero -->
+    <!-- Start Product Sale -->
+    <div class="product-sale my-lg-5 ">
+        <div class="container py-3 ps-3 pe-0 border-0 rounded overflow-hidden">
+            <div class="row align-items-sm-start">
+                <div class="col-sm-5 col-md-4 col-lg-4 text-center pt-3">
+                    <h4 class="py-2 fst-normal text-light fs-4 fw-bold">Products On Sale</h4>
+                    <p class="fs-4 fw-normal text-white">Shop Now!</p>
+                    <div class="d-flex align-items-center justify-content-center text-white gap-2 pt-5">
+                        <p class="fs-5 fw-normal p-0 m-0">View all</p>
+                        <i class="fa-solid fa-angle-right fs-4"></i>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-md-7 col-lg-8 overflow-hidden mt-2 ">
+                    <div class="product-sale_swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../images/product_7.png" class="img-fluid" alt="...">
+
+                                <div class="discount position-absolute  mt-2  top-0  " id="discount">-50%</div>
+                                <p class="fs-6 name pt-3">Logitech G502 Gaming Mouse</p>
+                                <div class="d-flex align-items-center justify-content-between pt-3 pb-0">
+                                    <del class="text-black-50 fs-6">$38.00</del>
+                                    <p class="text-black m-0 fs-6  ">$19.00</p>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../images/product_8.png" alt="" class="img-fluid ">
+
+                                <div class="discount position-absolute  mt-2  top-0  " id="discount">-50%</div>
+                                <p class="fs-6 name pt-3 ">NPET K10 Wired Gaming
+                                    Keyboard, LED Backlit, Spill-Resistant Design</p>
+                                <div class="d-flex align-items-center justify-content-between pt-3 pb-0">
+                                    <del class="text-black-50 fs-6">$138.00</del>
+                                    <p class="text-black m-0 fs-6 ">$119.00</p>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../images/product_9.png" alt="" class="img-fluid ">
+
+                                <div class="discount position-absolute  mt-2  top-0  " id="discount">-50%</div>
+                                <p class="fs-6 name pt-3">Apple Watch Series 7 (GPS, 41MM)</p>
+                                <div class="d-flex align-items-center justify-content-between pt-3 pb-0">
+                                    <del class="text-black-50 fs-6">$88.00</del>
+                                    <p class="text-black m-0 fs-6 ">$79.00</p>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img src="../images/product_10.png" alt="" class="img-fluid ">
+
+                                <div class="discount position-absolute mt-2 top-0 " id="discount">-50%</div>
+                                <p class="fs-6 name pt-3">Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GB
+                                    SSD)</p>
+                                <div class="d-flex align-items-center justify-content-between pt-3 pb-0">
+                                    <del class="text-black-50 fs-6">$38.00</del>
+                                    <p class="text-black m-0 fs-6 ">$29.00</p>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../images/product_11.png" alt="" class="img-fluid ">
+
+                                <div class="discount position-absolute mt-2 top-0 " id="discount">-50%</div>
+                                <p class="fs-6 name pt-3">samsung Titan smart watch</p>
+                                <div class="d-flex align-items-center justify-content-between pt-3 pb-0">
+                                    <del class="text-black-50 fs-6">$98.00</del>
+                                    <p class="text-black m-0 fs-6 ">$90.00</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- If we need navigation buttons -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Sale -->
+    <!-- Start New Products -->
+
+    <!-- componet colors product -->
+    <!--     
+        <div class="colors-product">
+            <div class="one"></div>
+            <div class="tow"></div>
+            <div class="three"></div>
+            <p class="m-0 p-0 ve">+</p>
+        </div> -->
+
+    <div class="newProducts pt-4 pb-4">
+        <div class="container ">
+            <div class="d-flex justify-content-between pb-2 border-bottom border-black border-2">
+                <h3>New Products</h3>
+                <div class="d-flex align-items-center gap-2">
+                    <p class="fs-6 m-0 p-0">View all</p><i class="fa-solid fa-chevron-right fs-6"></i>
+                </div>
+            </div>
+            <div class="swiper mt-4">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper" id="swiper_items_sale">
+                    <!-- Slides -->
+                    <!-- <div class="swiper-slide p-lg-3 p-2">
+                        <div class="images">
+                            <img src="../images/product_12.png" class="card-img" alt="...">
+                        </div>
+                        <hr class="main-line mx-auto mb-2">
+                        <div class="colors-product">
+                            <div class="one"></div>
+                            <div class="tow"></div>
+                            <div class="three"></div>
+                            <p class="m-0 p-0 pluse">+</p>
+                        </div>
+                        <div>
+                            <h5 class="title">Iphone 14 promax 256 gig</h5>
+                            <div class="d-flex justify-content-between align-items-center ">
+                                <p class="price m-0 p-0 fs-6 " id="price">$930.90</p>
+                                <div class="evelations d-flex align-items-center gap-1">
+                                    <i class="fa-solid fa-star fs-6"></i>
+                                    <p class="m-0 p-0 fs-6">4.5</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>  -->
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End New Products -->
+    <!-- Start banner -->
+    <div class="banner mt-5 pb-2">
+        <div class="container px-2">
+            <div class="row gap-lg-3 gap-2 justify-content-between">
+                <div class="col-12 col-lg-8 box-1 rounded ">
+                    <div class="row gap-3 text-center text-lg-start text-md-start">
+                        <div class="col-12 col-md-5 col-lg-6 align-content-sm-center">
+                            <p class="fs-5 fst-normal">Iphone <span class="text-light">15 Series</span></p>
+                            <div class="image">
+                                <img src="../images/product_18.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-5 info align-items-center">
+                            <div
+                                class="date d-flex align-items-center gap-3 mb-4 flex-wrap justify-content-center justify-content-md-start">
+                                <div class="d-flex flex-column align-items-center border rounded border-dark p-1">
+                                    <span class="m-0 p-0 fs-6 fw-bold lh-1">8</span>
+                                    <span class="m-0 p-0 fw-light lh-1 pt-1">Days</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center border rounded border-dark p-1">
+                                    <span class="m-0 p-0 fs-6 fw-bold lh-1">8</span>
+                                    <span class="m-0 p-0 fw-light lh-1 pt-1">Days</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center border rounded border-dark p-1">
+                                    <span class="m-0 p-0 fs-6 fw-bold lh-1">8</span>
+                                    <span class="m-0 p-0 fw-light lh-1 pt-1">Days</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center border rounded border-dark p-1">
+                                    <span class="m-0 p-0 fs-6 fw-bold lh-1">8</span>
+                                    <span class="m-0 p-0 fw-light lh-1 pt-1">Days</span>
+                                </div>
+
+                            </div>
+                            <div class="">
+                                <p class="fs-6 fw-medium lh-sm pb-2 p-0 m-0 ">It feels good to be the first</p>
+                                <p class="fs-6 fw-light lh-sm p-0 m-0">Get ready for the future of
+                                    smartphones.Experience
+                                    innovation like never before. Stay
+                                    tuned for the big iPhone 15 pre-sale.</p>
+                                <button class="btn rounded bg-primary  mt-4 fs-6 text-center text-light">Register
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3  box-2 rounded ">
+                    <p class="fs-5 fw-medium lh-sm text-center title">Play Station 5</p>
+                    <div class="d-flex flex-sm-row flex-lg-column  align-items-center justify-content-evenly gap-3">
+
+                        <div class="images object-fit-cover">
+                            <img src="../images/product_19.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="d-flex flex-column gap-0 gap-lg-3 ">
+                            <p class="fw-medium fs-6 m-0 p-0 ">Digital Edition + 2TB</p>
+                            <button class="btn rounded bg-primary  mt-4 fs-6 text-center text-light">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End banner -->
+    <!-- Start Best Sellers -->
+    <div class="bestSellers pt-5 mb-4">
+        <div class="container">
+            <div class="d-flex justify-content-between pb-2 border-bottom border-black border-2">
+                <h3>Best Sellers</h3>
+                <div class="d-flex align-items-center gap-2">
+                    <p class="fs-6 m-0 p-0">View all</p><i class="fa-solid fa-chevron-right fs-6"></i>
+                </div>
+            </div>
+            <div class="swiper swiper-bestSellers  mt-4 mb-4">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper" id="swiper_bstSellers">
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Best Sellers -->
+    <!-- Start Top Brands -->
+    <div class="top-brands pt-4 pb-4">
+        <div class="container">
+            <div class="d-flex justify-content-between pb-2 mb-5 border-bottom border-black border-2">
+                <h3>Top Brands</h3>
+                <div class="d-flex align-items-center gap-2">
+                    <p class="fs-6 m-0 p-0">View all</p><i class="fa-solid fa-chevron-right fs-6"></i>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-content-center pt-2 pb-3 flex-wrap gap-4">
+                <img src="../images/brand_1.png" alt="" class="img-fluid object-fit-cover">
+                <img src="../images/brand_2.png" alt="" class="img-fluid object-fit-cover">
+                <img src="../images/brand_3.png" alt="" class="img-fluid object-fit-cover">
+                <img src="../images/brand_4.png" alt="" class="img-fluid object-fit-cover">
+                <img src="../images/brand_5.png" alt="" class="img-fluid object-fit-cover">
+                <img src="../images/brand_6.png" alt="" class="img-fluid object-fit-cover">
+
+            </div>
+            <div class="brands mt-5">
+                <div class="content d-flex align-items-center justify-content-center p-2">
+                    <div class="info w-50 text-white align-items-center  d-flex flex-column justify-content-sm-center">
+                        <div>
+                            <h1 class="fw-medium fs-2 pb-2 text-start">SMART WATCH</h1>
+                            <p class="fw-light fs-5">Various designs and brands</p>
+                        </div>
+                        <button class="btn rounded mt-3 ">
+                            <p class="text-mobile p-0 m-0">Shop Now</p>
+                            <p class="text-web p-0 m-0">view</p>
+                        </button>
+                    </div>
+                    <div class="images w-50 object-fit-cover">
+                        <img src="../images/product-24.png" alt="" class=" img-fluid object-fit-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Brands -->
+    <!-- Start our services -->
+    <div class="our-services mt-4 mb-4">
+        <div class="container">
+            <div class="content">
+                <ul
+                    class="d-flex align-items-center flex-wrap gap-4 justify-content-md-evenly justify-content-between align-items-sm-start ">
+                    <li class="d-flex align-items-center gap-2">
+                        <img src="../images/icon_1.png" alt="">
+                        <p class="m-0 p-0"> Latest and Greatest Tech</p>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <img src="../images/icon_2.png" alt="">
+                        <p class="m-0 p-0"> Guarantee</p>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <img src="../images/icon_3.png" alt="">
+                        <p class="m-0 p-0"> Free Shipping over 1000$</p>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <img src="../images/icon_4.png" alt="">
+                        <p class="m-0 p-0"> 24/7 Support</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End our services -->
+
+
+    <!-- Start Footers -->
+    <footer class="text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row pb-4">
+                <!-- Company Section -->
+                <div class="col-sm-6 col-md-6 col-lg-2 mb-3">
+                    <h5 class="fw-medium">Company</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-2"><a href="#" class="text-white fw-light">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Returns</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Order Status</a></li>
+                    </ul>
+                </div>
+
+                <!-- Info Section -->
+                <div class="col-sm-6 col-md-6 col-lg-2 mb-3">
+                    <h5 class="fw-medium">Info</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-2"><a href="#" class="text-white fw-light">How it works?</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">Our Promises</a></li>
+                        <li class="mb-2"><a href="#" class="text-white fw-light">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us Section -->
+                <div class="col-sm-6 col-md-6 col-lg-5 mb-3">
+                    <h5 class="fw-medium">Contact Us</h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="text-white fw-light mb-2"><i class="fas fa-map-marker-alt"></i> 123 Main Street,
+                            Anytown, USA</li>
+                        <li class="text-white fw-light mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li class="text-white fw-light mb-2"><i class="fas fa-envelope"></i> TechHeimSupport@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Section -->
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
+                    <h5>Sign up for News and Updates</h5>
+                    <form>
+                        <div class="input-group">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="email" class="form-control" placeholder="E-mail Address" aria-label="Email">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </form>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-4"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="payment-icons">
+                    <img src="../images/login_brand1.png" alt="PayPal" class="me-2">
+                    <img src="../images/login_brand2.png" alt="American Express" class="me-2">
+                    <img src="../images/login_brand3.png" alt="Visa" class="me-2">
+                    <img src="../images/login_brand4.png" alt="MasterCard">
+                </div>
+            </div>
+            <hr class="bg-light">
+
+            <div class="row align-items-center">
+                <!-- Payment Icons -->
+
+
+                <!-- Terms and Policy -->
+                <div class="d-flex justify-content-between flex-wrap gap-3">
+                    <p class="m-0">&copy; 2023 Tech Heim.</p>
+                    <div class="d-flex align-items-center flex-wrap gap-2">
+                        <a href="#" class="text-white me-3">Cookie Settings</a>
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white me-3">Terms and Conditions</a>
+                        <a href="#" class="text-white">Imprint </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footers -->
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/tech_heim.js"></script>
+    <script src="../js/swiperTech.js"></script>
+    <script src="../js/loginAndSinging.js"></script>
+    <script src="../js/itemsProducts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+
+</body>
+
+</html>
